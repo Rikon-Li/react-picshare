@@ -8,7 +8,6 @@ export const TabItem = withRouter(
     return (
       <NavLink className="tab-item" to={path}>
         <span className={`iconfont ${isActive ? selectedIcon : icon}`}></span>
-        <span>{name}</span>
       </NavLink>
     );
   })
